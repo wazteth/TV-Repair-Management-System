@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="btnCreate" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                  <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="191" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="175" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="txtName" min="-2" pref="124" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="cboColumns" min="-2" pref="142" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lblC1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                                  <Component id="txtC1" min="-2" pref="124" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lblC2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                                  <Component id="txtC2" min="-2" pref="124" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="cboType1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="cboType2" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblC3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                          <Component id="txtC3" min="-2" pref="124" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                          <Component id="cboType3" min="-2" pref="112" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="chkN3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                          <Component id="chkP3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="chkN1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="chkN2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="chkP2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="chkP1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lblC4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="txtC4" min="-2" pref="124" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                  <Component id="cboType4" min="-2" pref="112" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Component id="chkN4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="chkP4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="198" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="24" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="txtName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cboColumns" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblC1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtC1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cboType1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkN1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkP1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblC2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtC2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cboType2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkN2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkP2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblC3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtC3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cboType3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkN3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkP3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="37" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblC4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtC4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cboType4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkN4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chkP4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnCreate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnBack" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JCheckBox" name="chkP3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primary Key"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblC4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Column 4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtC4">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboType4">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="select"/>
+                <StringItem index="1" value="int"/>
+                <StringItem index="2" value="float"/>
+                <StringItem index="3" value="double"/>
+                <StringItem index="4" value="nchar(5)"/>
+                <StringItem index="5" value="varchar(5)"/>
+                <StringItem index="6" value="varchar(10)"/>
+                <StringItem index="7" value="varchar(15)"/>
+                <StringItem index="8" value="varchar(20)"/>
+                <StringItem index="9" value="varchar(25)"/>
+                <StringItem index="10" value="varchar(30)"/>
+                <StringItem index="11" value="varchar(35)"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkN4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not Null"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkP4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primary Key"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtC2">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboType2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="select"/>
+                <StringItem index="1" value="int"/>
+                <StringItem index="2" value="float"/>
+                <StringItem index="3" value="double"/>
+                <StringItem index="4" value="nchar(5)"/>
+                <StringItem index="5" value="varchar(5)"/>
+                <StringItem index="6" value="varchar(10)"/>
+                <StringItem index="7" value="varchar(15)"/>
+                <StringItem index="8" value="varchar(20)"/>
+                <StringItem index="9" value="varchar(25)"/>
+                <StringItem index="10" value="varchar(30)"/>
+                <StringItem index="11" value="varchar(35)"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkN2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not Null"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkP2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primary Key"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Table Creation"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCreate">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CREATE"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCreateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Number of Columns"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboColumns">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="select"/>
+                <StringItem index="1" value="2"/>
+                <StringItem index="2" value="3"/>
+                <StringItem index="3" value="4"/>
+                <StringItem index="4" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboColumnsActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblC3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Column 3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtC3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Table Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtName">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblC1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Column 1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtC1">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboType1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="select"/>
+                <StringItem index="1" value="int"/>
+                <StringItem index="2" value="float"/>
+                <StringItem index="3" value="double"/>
+                <StringItem index="4" value="nchar(5)"/>
+                <StringItem index="5" value="varchar(5)"/>
+                <StringItem index="6" value="varchar(10)"/>
+                <StringItem index="7" value="varchar(15)"/>
+                <StringItem index="8" value="varchar(20)"/>
+                <StringItem index="9" value="varchar(25)"/>
+                <StringItem index="10" value="varchar(30)"/>
+                <StringItem index="11" value="varchar(35)"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkN1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not Null"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkP1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primary Key"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblC2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Column 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboType3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="select"/>
+                <StringItem index="1" value="int"/>
+                <StringItem index="2" value="float"/>
+                <StringItem index="3" value="double"/>
+                <StringItem index="4" value="nchar(5)"/>
+                <StringItem index="5" value="varchar(5)"/>
+                <StringItem index="6" value="varchar(10)"/>
+                <StringItem index="7" value="varchar(15)"/>
+                <StringItem index="8" value="varchar(20)"/>
+                <StringItem index="9" value="varchar(25)"/>
+                <StringItem index="10" value="varchar(30)"/>
+                <StringItem index="11" value="varchar(35)"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkN3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not Null"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnBack">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BACK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
